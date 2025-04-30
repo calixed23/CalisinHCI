@@ -6,31 +6,26 @@ body {
 }
 h1 {
     font-family: 'Sacramento', cursive;
-    font-size: 50px; /* Equals 90px */
+    font-size: 50px;
     margin: 0;
-  }
-  
-  /* h2 and h3 use Montserrat */
-  h2, h3 {
+}
+h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px; /* Equals 40px */
+    font-size: 30px;
     font-weight: 700;
-  }
-  
-  /* Paragraphs also use Merriweather */
-  p {
+}
+p {
     font-family: 'Merriweather', serif;
-  } 
+}
 
-/* Top Section */
 .top-section {
     background-image: url('11123.jpg');
-    background-size: cover; /* Make the image cover the entire section */
-    background-position: center; /* Center the image */
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 150px 20px 0; /* Increased padding to make it bigger */
+    padding: 150px 20px 0;
     position: relative;
-    height: 500px; /* Increased height to make it large enough for the text */
+    height: 500px;
     overflow: hidden;
 }
 
@@ -38,10 +33,9 @@ h1 {
     position: relative;
     z-index: 2;
     padding-top: 100px;
-    padding-bottom: 140px; /* Keep enough space between text and bottom */
+    padding-bottom: 140px;
 }
 
-/* Middle Section */
 .middle-section {
     background-color: white;
     padding: 60px 20px;
@@ -53,14 +47,12 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Bottom Section */
 .bottom-section {
     background-color: #005f99;
     color: white;
     padding: 60px 20px;
 }
 
-/* Button styling */
 .btn {
     background: #f53958;
     background-image: linear-gradient(to bottom, #f53958, #ffffff);
@@ -80,7 +72,6 @@ h1 {
     text-decoration: none;
 }
 
-/* Social links styling */
 .social-links a {
     margin-right: 20px;
     text-decoration: none;
